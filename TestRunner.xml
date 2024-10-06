@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="Function">
+    <listeners>
+        <listener class-name="utilities.ExtentReportUtility"/>
+    </listeners>
+    <test name="Smoke">
+        <classes>
+            <class name="testCases.TC001_AccountRegistration"/>
+            <class name="testCases.TC002_Login"/>
+            <class name="testCases.TC003_ProductSearch"/>
+            <class name="testCases.TC004_Cart"/>
+            <class name="testCases.TC005_Checkout"/>
+        </classes>
+    </test>
+</suite>
+
