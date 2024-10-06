@@ -6,6 +6,7 @@ Selenium Automation for TealiumDemo Store
 1. [Test Framework Structure](#test-framework-structure)
    - [Framework Design](#framework-design)
    - [Configuration](#configuration)
+   - [ROI](#roi)
 2. [Test Cases](#test-cases)
    - [1. User Registration and Login](#user-registration-and-login)
    - [2. Product Search and Filter](#product-search-and-filter)
@@ -34,7 +35,14 @@ The framework is configured with the necessary dependencies, ensuring that it ca
 - **Java Properties**: For configuration management
 - **Extent Reports**: For generating detailed test reports
 
+### ROI
+Investing in Appium and Selenium for test automation provides significant Return on Investment (ROI) through:
 
+1. **Cost Efficiency**: Selenium is an open-source tool, eliminating licensing fees and reducing overall project costs.
+2. **Cross-Browser Testing**: Selenium allows testing across different web browsers (Chrome, Firefox, Safari) using the same scripts, maximizing test coverage.
+3. **Robust Test Management**: TestNG facilitates organized test execution and reporting, enhancing collaboration among team members and improving the speed of development cycles.
+4. **Scalability**: The modular design of the framework allows for easy scaling as new features are added, ensuring that test automation grows alongside the application.
+5. **Community Support**: Selenium has a large community and extensive documentation, making it easier to find solutions and resources.
 
 
 ## Test Cases
